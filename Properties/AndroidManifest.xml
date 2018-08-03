@@ -8,7 +8,7 @@
 			<action android:name="android.intent.action.MAIN" />
 			<category android:name="android.intent.category.LAUNCHER" />
 		</intent-filter>
-		<activity android:name=".LoginActivity" android:theme="@style/Theme.MyTheme" />
+		<activity android:name=".LoginActivity" android:theme="@style/Theme.MyTheme" /> 
 		<activity android:name=".SignupActivity" android:theme="@style/Theme.MyTheme" />
    
 	</application>
