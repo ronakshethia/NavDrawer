@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">NavDrawer</string>
+  <string name="drawer_open">Open</string>
+  <string name="drawer_close">Close</string>
+  <string name="menu_refresh">Refresh</string>
+  <string name="fragment1">You are on Fragment 1</string>
+  <string name="fragment2">You are on Fragment 2</string>
+  <string name="tab1_title">Tab1</string>
+  <string name="tab2_title">Tab2</string>
+  <string name="tab3_title">Tab3</string>
+  <string name="fragment1">This is the first tab.</string>
+  <string name="fragment2">This is the second tab.</string>
+  <string name="fragment3">This is the third tab.</string>
+  <string name="fragment4">This is the first tab.</string>
+  <string name="fragment5">This is the second tab.</string>
+  <string name="fragment6">This is the third tab.</string>
+  <string name="signed_in_fmt">Signed in as: {0}</string>
+  
+  <string name="server_client_id">AIzaSyDF4nmXQIGnqC7m-4nnY8Ew64S9c8hWpB0</string>
+  
+</resources>

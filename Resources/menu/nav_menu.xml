@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto"
+       xmlns:tools="http://schemas.android.com/tools"
+       tools:context="com.example.toolbar.MainActivity"
+  >
+
+    
+
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home_1"
+        android:icon="@drawable/ic_home2"
+        android:title="Home" />
+    <item
+        android:id="@+id/special_offer"
+        android:icon="@drawable/ic_offer"
+        android:title="Special Offers" />
+    <item
+        android:id="@+id/booking_status"
+        android:icon="@drawable/ic_booking"
+        android:title="Booking Status" />
+   
+  </group>
+
+  <item android:title="Support">
+    <menu>
+      <item
+        android:id="@+id/issue_booking"
+          android:icon="@drawable/ic_support"
+          android:title="Issue With Booking" 
+          android:checkable="true" />
+      <item
+        android:id="@+id/store"
+          android:icon="@drawable/ic_store"
+          android:title="Find Our Store"
+          android:checkable="true"  />
+    </menu>
+  </item>
+  <item android:title="Store">
+    <menu>
+      <item
+         android:id="@+id/about_us"
+          android:icon="@drawable/ic_aboutus"
+          android:title="About Us"
+          android:checkable="true" />
+    </menu>
+  </item>
+
+  <item android:title="Account">
+    <menu>
+      <item
+        android:id="@+id/acc_settings"
+          android:icon="@drawable/ic_prosetting"
+          android:title="Account Setting"
+          android:checkable="true" />
+      <item
+        android:id="@+id/logout"
+         android:icon="@drawable/ic_signout"
+         android:title="Logout"
+         android:checkable="true" />
+    </menu>
+  </item>
+
+</menu>

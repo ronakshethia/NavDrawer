@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+        
+    android:background="@drawable/border"
+              >
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@android:color/darker_gray"
+      >
+
+    <TextView
+        android:id="@+id/tv_booking_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+       android:textColor="#030303"
+        android:textSize="15dp"
+        android:fontFamily="Bold"
+        android:text="Booking ID -" />
+    
+    <TextView
+        android:id="@+id/BookingIdTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textColor="#030303"
+        android:textSize="15dp"
+    android:fontFamily="Bold"
+          
+        android:layout_toRightOf="@+id/tv_booking_header"
+        android:text="12343412" />
+  </RelativeLayout>
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="0.5dp"
+      android:background="@android:color/black"/>
+  <TableLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+       
+      >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <RelativeLayout
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+         
+          >
+
+        <TextView
+            android:id="@+id/tv_header1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="5dp"
+           
+            android:text="Date :"
+           android:fontFamily="Arial"
+            />
+
+        <TextView
+            android:id="@+id/BookingDateTextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_header1"
+            android:text="Value 1"
+              android:textColor="#FB0000"
+            />
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_header2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:fontFamily="Arial"
+            android:textColor="@android:color/black"
+            android:text="Time :" />
+
+        <TextView
+            android:id="@+id/BookingTimeTextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_header2"
+            android:textColor="#FB0000"
+            android:text="Value 2" />
+      </RelativeLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <RelativeLayout
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_header3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+             android:fontFamily="Arial"
+            android:textColor="@android:color/black"
+            android:text="Service :" />
+
+        <TextView
+            android:id="@+id/BookingServiceTextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_header3"
+            android:textColor="#FB0000"
+            android:text="Value 3" />
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_header4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+              android:fontFamily="Arial"
+            android:textColor="@android:color/black"
+            android:text="Amount :" />
+
+        <TextView
+            android:id="@+id/BookingAmountTextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_header4"
+            android:textColor="#FB0000"
+            android:text="Value 4" />
+      </RelativeLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <RelativeLayout
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_header5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:fontFamily="Arial"
+            android:textColor="@android:color/black"
+            android:text="Payment Mode :" />
+
+        <TextView
+            android:id="@+id/PaymentModeTextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_header5"
+            android:textColor="#FB0000"
+            android:text="Value 5" />
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_header6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+             android:fontFamily="Arial"
+            android:textColor="@android:color/black"
+            android:text="Status :" />
+
+        <TextView
+            android:id="@+id/StatusTextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_header6"
+            android:textColor="#FB0000"
+            android:text="Value 6" />
+      </RelativeLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <RelativeLayout
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_header7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:fontFamily="Arial"
+            android:textColor="@android:color/black"
+            android:text="Shop Name :" />
+
+        <TextView
+            android:id="@+id/ShopNameTextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_header7"
+            android:textColor="#FB0000"
+            android:text="Value 7" />
+      </RelativeLayout>
+    </TableRow>
+  </TableLayout>
+</LinearLayout>
